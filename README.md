@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-## Date: 
+## Date: 16.04.2024
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -25,158 +25,116 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-```
+``` 
 map.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body>
-    <h1 align="center">
-        <font color="black"><b>VELLORE</b></font>
-    </h1>
-    <h3 align="center">
-        <font color="red"><b>Mahalakshmi R (212223230116)</b></font>
-    </h3>  
-    <center>
-        <img src="map.png.png" usemap="#image-map">
+<head>
+    <title>Document</title>
+</head>
+<body bgcolor="blue">
+ <h1><center>CHENNAI</center></h1>
+ <h2><center>Allen Steve 212221220004</center></h2>
+<center><img src="Screenshot 2024-03-21 144021.png" usemap="#image-map"></center>
 
 <map name="image-map">
-    <area target="" alt="Vellore Fort" title="Vellore Fort" href="fort.html" coords="535,424,762,467" shape="rect">
-    <area target="" alt="Regency Sameera Hotel" title="Regency Sameera Hotel" href="hotel.html" coords="592,292,842,352" shape="rect">
-    <area target="" alt="D Mart" title="D Mart" href="shop.html" coords="1067,172,1265,227" shape="rect">
-    <area target="" alt="DKM College" title="DKM College" href="college.html" coords="612,652,793,717" shape="rect">
-    <area target="" alt="Fortune Park" title="Fortune Park" href="resort.html" coords="461,49,676,102" shape="rect">
+    <area target="" alt="DOLPHINE SWIMMING POOL" title="DOLPHINE SWIMMING POOL" href="swim.html" coords="417,59,69" shape="circle">
+    <area target="" alt="Chennai International Airport" title="Chennai International Airport" href="airport.html" coords="1280,32,195" shape="circle">
+    <area target="" alt="Pallavaram Military Cricket Ground" title="Pallavaram Military Cricket Ground" href="cricket.html" coords="815,264,84" shape="circle">
+    <area target="" alt="Pallavaram Mountain" title="Pallavaram Mountain" href="mountain.html" coords="1252,684,143" shape="circle">
+    <area target="" alt="CSI St.Stephen's Church" title="CSI St.Stephen's Church" href="Church.html" coords="815,552,64" shape="circle">
 </map>
-    </center> 
-    </body>
+</body>
 </html>
-
-fort.html
+```
+```
+swim.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body bgcolor="silver">
-        <h1 align="center">
-            <font color="black"><b>VELLORE</b></font>
-        </h1>
-        <h3 align="center">
-        <font color="blue"><b>Vellore Fort</b></font>
-        </h3>
-        <hr size="3" color="white">
-        <p align="justify">
-            <font face="Georgia" size="5"></font>
-            <h2>
-            Vellore Fort is a large 16th-century fort situated in heart of the Vellore city, in the state of Tamil Nadu, India built by the Emperors of Vijayanagara. The fort was at one time the imperial capital of the Aravidu Dynasty of the Vijayanagara Empire.This impressive granite fort is constructed using granite from nearby quarries in the Arcot and Chittor areas, and it covers a sprawling area of 133 acres.
-            </h2>
-        </p>
-    </body>
+<head>
+    <title>
+        SWIMMING
+    </title></head>
+<body bgcolor="red">
+    <h1><center> CHENNAI </center></h1>
+    <h2><center> Dolphine Swimming Pool </center></h2>
+    <hr>
+    <center><h3>The Dolphin Swimming Pools is renowned not only for exceptional pool designs but also for that creates a welcoming atmosphere.<br> Beyond a pool service, it's a hub of creativity and leisure, fostering a community that values elegance and rejuvenation.</h3></center>
+</body>
 </html>
-
-hotel.html
+```
+```
+mountain.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body bgcolor="skyblue">
-        <h1 align="center">
-            <font color="black"><b>VELLORE</b></font>
-        </h1>
-        <h3 align="center">
-        <font color="blue"><b>Regency Sameera Vellore</b></font>
-        </h3>
-        <hr size="3" color="white">
-        <p align="justify">
-            <font face="Georgia" size="15"></font>
-            <h2>
-                In terms of Location 100% people like the location of Regency Sameera Vellore by GRT Hotels. and 71% said that property is Easily Accessible. Safety And Hygiene is the top priority for the Regency Sameera Vellore by GRT Hotels with score 82%. 74% Guests like the Thermal Screening feature.
-            </h2>
-        </p>
-    </body>
+<head>
+    <title>
+        MOUNTAIN
+    </title></head>
+<body bgcolor="aqua">
+    <h1><center> CHENNAI </center></h1>
+    <h2><center>Pallavaram Mountain</center></h2>
+    <hr>
+    <center><h3>Pallavaram is considered to be one of the oldest inhabited places in South India.<br> A major archaeological find was made in the year 1863 when the British archaeologist Robert Bruce Foote discovered a stone implement from the Paleolithic Age inside a ballast pit.</h3></center>
+</body>
 </html>
-
-shop.html
+```
+```
+cricket.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body bgcolor="yellow">
-        <h1 align="center">
-            <font color="black"><b>VELLORE</b></font>
-        </h1>
-        <h3 align="center">
-        <font color="blue"><b>D Mart</b></font>
-        </h3>
-        <hr size="3" color="white">
-        <p align="justify">
-            <font face="Georgia" size="8"></font>
-            <h2>
-            DMart is a one-stop supermarket chain that aims to offer customers a wide range of basic home and personal products under one roof. Each DMart store stocks home utility products - including food, toiletries, beauty products, garments, kitchenware, bed and bath linen, home appliances and more - available at competitive prices that our customers appreciate. Our core objective is to offer customers good products at great value.
-            </h2>
-        </p>
-    </body>
+<head>
+    <title>
+        CRICKET
+    </title></head>
+<body bgcolor="yellow">
+    <h1><center> CHENNAI </center></h1>
+    <h2><center>Pallavaram Military Cricket Ground</center></h2>
+    <hr>
+    <center><h3>A cricket field or cricket oval is a large grass field on which the game of cricket is played.<br> Although generally oval in shape, there is a wide variety within this: perfect circles, elongated ovals, rounded rectangles, or irregular shapes with little or no symmetry – but they will have smooth boundaries without sharp corners, almost without exception.</h3></center>
+</body>
 </html>
-
-college.html
+```
+```
+airport.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body bgcolor="pink">
-        <h1 align="center">
-            <font color="black"><b>VELLORE</b></font>
-        </h1>
-        <h3 align="center">
-        <font color="blue"><b>DKM College</b></font>
-        </h3>
-        <hr size="3" color="white">
-        <p align="justify">
-            <font face="Georgia" size="15"></font>
-            <h2>
-            D.K.M. College for Women, is a women's general degree college located in Vellore, Tamil Nadu. It was established in the year 1972. The college is affiliated with Thiruvalluvar University. This college offers different courses in arts, commerce and science.
-            </h2>
-        </p>
-    </body>
+<head>
+    <title>
+        AIRPORT
+    </title></head>
+<body bgcolor="orange">
+    <h1><center> CHENNAI </center></h1>
+    <h2><center> Chennai International Airport </center></h2>
+    <hr>
+    <center><h3>Chennai International Airport is an international airport serving the city of Chennai, the capital of Tamil Nadu, India and its metropolitan area.<br> It is located in Tirusulam, around 20 km southwest of the city centre.<br> The airport is the 5th busiest airport in India, and 3rd by international traffic.</h3></center>
+</body>
 </html>
-
-resort.html
+```
+```
+Church.html
 
 <html>
-    <head>
-        <title>My City</title>
-    </head>
-    <body bgcolor="cyan">
-        <h1 align="center">
-            <font color="black"><b>VELLORE</b></font>
-        </h1>
-        <h3 align="center">
-        <font color="blue"><b>Fortune Park</b></font>
-        </h3>
-        <hr size="3" color="white">
-        <p align="justify">
-            <font face="Georgia" size="5"></font>
-            <h2>
-                Fortune Park, Vellore offers 62 tastefully furnished rooms that include 47 Deluxe Rooms, 8 Fortune Club Rooms and 7 Suites. The stylish guest rooms come with an array of amenities and individually-controlled air-conditioning to ensure a comfortable stay.
-            </h2>
-        </p>
-    </body>
+<head>
+    <title>
+        CHURCH
+    </title></head>
+<body bgcolor="indigo">
+    <h1><center> CHENNAI </center></h1>
+    <h2><center>CSI St.Stephen's Church</center></h2>
+    <hr>
+    <center><h3> St. Stephen the first martyr of Christianity, in whose name our church is named, was a deacon in the early church at Jerusalem, who aroused the enmity of members of various synagogues by his teachings.</h3></center>
+</body>
 </html>
 ```
 
 ## OUTPUT
-![Screenshot 2024-04-08 at 11 19 44 AM](https://github.com/Harshinisrini1910/NearMe/assets/161415847/98a0fcc7-5187-46b2-9be9-48c99f775cc3)
 
-
-
-
-
-
-
+![alt text](maphome.png)
+![alt text](<1Screenshot 2024-04-23 at 8.48.30 AM.png>)
+![alt text](<2Screenshot 2024-04-23 at 8.48.54 AM.png>)
+![alt text](<3Screenshot 2024-04-23 at 8.49.05 AM.png>)
+![alt text](<4Screenshot 2024-04-23 at 8.49.24 AM.png>)
+![alt text](<5Screenshot 2024-04-23 at 8.49.41 AM.png>)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
