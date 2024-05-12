@@ -34,7 +34,7 @@ map.html
 </head>
 <body bgcolor="blue">
  <h1><center>CHENNAI</center></h1>
- <h2><center>Allen Steve 212221220004</center></h2>
+ <h2><center>S Harshini 212221220018</center></h2>
 <center><img src="Screenshot 2024-03-21 144021.png" usemap="#image-map"></center>
 
 <map name="image-map">
